@@ -13,3 +13,9 @@ npx hardhat
 npx hardhat compile
 npx hardhat test
 ```
+
+## deploying contract
+- `scripts/` 폴더에 있는 파일 실행
+```shell
+npx hardhat run scripts/deploy.ts
+```
