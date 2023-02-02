@@ -57,10 +57,12 @@ npx hardhat test test/example.ts
 - `scripts/` 폴더에 있는 파일 실행
 
 ```shell
-npx hardhat run scripts/example.ts
+npx hardhat run scripts/deploy.ts --network goerli
 ```
 
 ### NFT.sol
+
+### [transaction history ](https://goerli.etherscan.io/tx/0x9449b7b8260b58114ccc211244add5b769bb419aa30d0d73ea8b4b6d5ef2330c)
 
 - Sales 기간에만 민팅 가능 ( Sales는 contract owner가 설정 가능 )
   - 발행량 : 최대 100개
